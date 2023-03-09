@@ -1,6 +1,6 @@
-name: pre-merge-actions
-run-name: ${{ github.actor }} is running pre-merge tests
-on: pull_request
+name: Automated tests
+run-name: ${{ github.actor }} is running push tests
+on: push
 jobs:
   test-code:
     runs-on: ubuntu-latest
