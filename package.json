@@ -1,0 +1,30 @@
+{
+  "name": "aerodb",
+  "version": "1.0.0",
+  "description": "A lightweight database for nodejs. Highly multithreaded, and thus (hopefully)highly performant :)",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LachyPlays/aerodb.git"
+  },
+  "keywords": [
+    "lightweight",
+    "db",
+    "database",
+    "typescript"
+  ],
+  "author": "Lachlan Munday",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/LachyPlays/aerodb/issues"
+  },
+  "homepage": "https://github.com/LachyPlays/aerodb#readme",
+  "devDependencies": {
+    "node-ts": "^5.1.2",
+    "typescript": "^4.9.5"
+  }
+}
